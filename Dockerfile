@@ -1,5 +1,5 @@
-FROM leifg/elixir:1.5.2
-MAINTAINER Leif Gensert <leif@leif.io>
+FROM leifg/elixir:1.5.3
+LABEL maintainer="Leif Gensert <leif@leif.io>"
 
 ADD debug.sh /usr/local/bin/
 
